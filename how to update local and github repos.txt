@@ -1,0 +1,36 @@
+GitHub:
+1. right click in the "magicdonut" folder and click "Open Git Bash here"
+
+2. when finished working type in 
+	- git add .
+	
+		- This will make git track the changes you made in the folder
+		
+	- git commit -m "<add your comment here>"
+	
+		- YOU MUST DO THIS BEFORE PUSHING
+		- This command adds a comment to the commit you are going to push
+		- in the "", add your comment.
+		- it can be multiline, for example
+			 git commit -m "text text text
+			 test test"
+		
+		- just make sure you close your quotations
+		
+	- git push -u origin
+	
+		- this pushes your commit and any changes you made to the repository in github
+		
+		
+3. So in order, it should look like this
+	git add .
+	git commit -m "comment"
+	git push -u origin
+	
+Updating ur local repo from GitHub:
+1. Right click in the magicdonut folder and click "Open Git Bash here"
+
+2. to update ur local repo to what is in GitHub, type in
+	git pull origin main
+
+3. congrats ur done, ur local repo is the same as github
